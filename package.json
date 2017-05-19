@@ -1,0 +1,19 @@
+{
+  "name": "desafio_treasy",
+  "version": "1.0.0",
+  "description": "Desafio Front-End Treasy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "ejs": "^2.5.2",
+    "angular": "^1.6.4",
+    "express-validator": "^2.20.8"
+  }
+}

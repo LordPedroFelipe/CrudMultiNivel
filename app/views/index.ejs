@@ -32,10 +32,10 @@
  
                 //Pedro Felipe - Adiciona
                 $scope.addEmployee = function () {  
-                    $scope.employees.push({ 'empno': $scope.empno, 'empname': $scope.empname, 'empsalary': $scope.empsalary });  
+                    $scope.employees.push({ 'cod': $scope.cod, 'desc': $scope.desc, 'obs': $scope.empsalary });  
                     getLocalStorage.updateEmployees($scope.employees);  
-                    $scope.empno = '';  
-                    $scope.empname = '';  
+                    $scope.cod = '';  
+                    $scope.desc = '';  
                     $scope.empsalary = '';  
                     $scope.count = $scope.employees.length;  
                 };  
